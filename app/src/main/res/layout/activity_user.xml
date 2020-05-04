@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages "
+        android:textColor="#000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        />
+ <ListView
+     android:id="@+id/listMessages"
+     android:layout_marginTop="100dp"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#4d4341"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+    <TextView
+        android:id="@+id/messagesBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="12sp"
+        android:textColor="#fff"
+        />
+        <TextView
+            android:id="@+id/friendlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Friend List"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="12dp"
+        android:textSize="12sp"
+        android:textColor="#fff"
+
+        />
+        <TextView
+            android:id="@+id/notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notifications"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:textSize="12sp"
+            android:textColor="#fff" />
+
+        <TextView
+            android:id="@+id/myprofile"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="12dp"
+            android:textSize="12sp"
+            android:textColor="#fff"
+
+            />
+    </LinearLayout>
+    </RelativeLayout>
